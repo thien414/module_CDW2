@@ -1,0 +1,53 @@
+.type-40 {
+  font-family: "Poppins";
+  font-size: 14px; }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("../fonts/Poppins-Light.ttf"); }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf"); }
+  .type-40 .title {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-image: url(../images/40_background.jpg); }
+    .type-40 .title h2 {
+      color: #363636;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 5px;
+      letter-spacing: 2px; }
+    .type-40 .title li {
+      text-align: left;
+      list-style: none;
+      color: #959595; }
+      .type-40 .title li a {
+        color: #959595;
+        text-decoration: none; }
+      .type-40 .title li span:before {
+        content: "\f105";
+        font-family: FontAwesome;
+        color: #959595;
+        font-size: 15px;
+        padding: 0 10px; }
+  .type-40 .Content {
+    margin-top: 3rem; }
+    .type-40 .Content_title h2 {
+      font-family: "PoppinsLight";
+      font-size: 23px; }
+    .type-40 .Content_value {
+      color: #363636; }
+      .type-40 .Content_value p {
+        margin-bottom: 10px; }
+      .type-40 .Content_value .image {
+        text-align: center; }
+        .type-40 .Content_value .image img {
+          margin: 30px 0; }
+        .type-40 .Content_value .image .btn_show {
+          margin-top: 2rem;
+          color: #fff;
+          background-color: #5cb85c;
+          border-color: #4cae4c; }
+        .type-40 .Content_value .image .btn_show:hover {
+          background-color: #449d44;
+          border-color: #398439; }

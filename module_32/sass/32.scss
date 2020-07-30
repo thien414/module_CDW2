@@ -1,0 +1,16 @@
+.type-32 {
+    $size-title: 23px;
+    $site-create: 12px;
+    $color-create: #959595;
+    $color-backround: #e6e6e6;
+    $color-a: #42ccaf;
+    @font-face {
+        font-family: "PoppinsLight";
+        src: url("../fonts/Poppins-Light.ttf");
+    }
+    @font-face {
+        font-family: "Poppins";
+        src: url("../fonts/Poppins-Regular.ttf");
+    }
+    font-family: "Poppins";
+}
