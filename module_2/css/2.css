@@ -1,10 +1,75 @@
 .type-2 {
-  /* adds some margin below the link sets  */ }
+  font-family: "Poppins";
+  font-size: 14px; }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("../fonts/Poppins-Light.ttf"); }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+    /* adds some margin below the link sets  */ }
   .type-2 .navbar .dropdown-menu div[class*="col"] {
     margin-bottom: 1rem; }
   .type-2 .navbar .dropdown-menu {
-    border: none;
-    background-color: #0060c8 !important;
+    border: none; }
+  .type-2 .parent:hover {
+    position: relative; }
+    .type-2 .parent:hover .slidemenu_grandchild {
+      display: inline-block; }
+  .type-2 .slidemenu_grandchild {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: ghostwhite;
+    border: 1px solid #959595;
+    padding: 0;
+    width: 200px;
+    display: none;
+    z-index: 1; }
+    .type-2 .slidemenu_grandchild a {
+      color: #363636;
+      font-size: 14px;
+      text-decoration: none; }
+  .type-2 .parents:hover {
+    position: relative; }
+    .type-2 .parents:hover .slidemenu_grandchilds {
+      display: inline-block; }
+  .type-2 .slidemenu_grandchilds {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: ghostwhite;
+    border: 1px solid #959595;
+    padding: 0;
+    width: 200px;
+    display: none;
+    z-index: 1; }
+    .type-2 .slidemenu_grandchilds a {
+      color: #363636;
+      font-size: 14px;
+      text-decoration: none; }
+  .type-2 .active {
+    background-color: #e6e6e6; }
+  .type-2 .dropdown-toggle::after {
+    display: none; }
+  .type-2 .dropdown {
+    position: relative !important; }
+    .type-2 .dropdown .custom {
+      position: absolute !important;
+      width: 630px !important; }
+  .type-2 .custom-sigle {
+    width: 200px !important; }
+  .type-2 .text-check {
+    color: #363636 !important;
+    font-size: 14px; }
+  .type-2 .box {
+    background-color: #ccc;
+    height: 2px;
+    width: 40px;
+    margin: 0px auto;
+    padding: 0px;
     /* breakpoint and up - mega dropdown styles */ }
   @media screen and (min-width: 992px) {
     .type-2 {
@@ -19,6 +84,8 @@
         /* makes the dropdown full width  */ }
       .type-2 .navbar .dropdown {
         position: static; }
+      .type-2 .custom {
+        width: 200px !important; }
       .type-2 .navbar .dropdown-menu {
         width: 100%;
         left: 0;
