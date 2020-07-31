@@ -1,0 +1,103 @@
+.type-11 {
+    $color-create: #959595;
+    $color-p: #363636;
+    $color: #363636;
+    $color-a: #42ccaf;
+    $color-child-hover: #FF9C00;
+    @font-face {
+        font-family: "PoppinsLight";
+        src: url("../fonts/Poppins-Light.ttf");
+    }
+    @font-face {
+        font-family: "Poppins";
+        src: url("../fonts/Poppins-Regular.ttf");
+    }
+    font-family: "Poppins";
+    font-size: 14px;
+    .title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: url(../images/11_background.jpg);
+        h2 {
+            color: #363636;
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+        li {
+            text-align: left;
+            list-style: none;
+            color: $color-create;
+            a {
+                color: $color-create;
+                text-decoration: none;
+            }
+            span:before {
+                content: "\f105";
+                font-family: FontAwesome;
+                color: $color-create;
+                font-size: 15px;
+                padding: 0 10px;
+            }
+        }
+    }
+    .Content {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        &-1 {
+            border: 1px solid $color-a;
+            ul {
+                list-style-type: none;
+                h3 {
+                    font-family: "PoppinsLight";
+                    font-size: 20px;
+                }
+                .active {
+                    color: $color-a;
+                }
+                .hv {
+                    cursor: pointer;
+                }
+                .hv-child {
+                    cursor: pointer;
+                }
+                .hv:hover {
+                    color: $color-a;
+                }
+                .hv-child:hover {
+                    color: $color-child-hover;
+                }
+            }
+        }
+        &-2 {
+            border: 1px solid $color-create;
+            border-top: 3px solid $color-a;
+        }
+        &-3 {
+            h2 {
+                font-family: "PoppinsLight";
+                font-size: 28px;
+            }
+            h3 {
+                font-family: "PoppinsLight";
+                font-size: 19px;
+            }
+            h4 {
+                font-family: "PoppinsLight";
+                font-size: 14px;
+            }
+            .calendar {
+                color: $color-create;
+                font-size: 12px;
+            }
+            .check {
+                color: $color-a;
+                cursor: pointer;
+            }
+            .check:hover {
+                color: $color-child-hover;
+            }
+        }
+    }
+}

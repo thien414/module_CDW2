@@ -1,0 +1,108 @@
+.type-39 {
+    $size-title: 23px;
+    $site-create: 12px;
+    $color-create: #959595;
+    $color-backround: #e6e6e6;
+    $color-a: #42ccaf;
+    @font-face {
+        font-family: "PoppinsLight";
+        src: url("../fonts/Poppins-Light.ttf");
+    }
+    @font-face {
+        font-family: "Poppins";
+        src: url("../fonts/Poppins-Regular.ttf");
+    }
+    @mixin child {
+        color: #363636;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        display: none;
+        z-index: 1;
+        width: 200px;
+        border: 1px solid #e9ecef;
+        background-color: white;
+    }
+    font-family: "Poppins";
+    .title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: url(../images/39_background.jpg);
+        h2 {
+            color: #363636;
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+        li {
+            text-align: left;
+            list-style: none;
+            color: $color-create;
+            a {
+                color: $color-create;
+                text-decoration: none;
+            }
+            span:before {
+                content: "\f105";
+                font-family: FontAwesome;
+                color: $color-create;
+                font-size: 15px;
+                padding: 0 10px;
+            }
+        }
+    }
+    .Content {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        &-1 {
+            border: 1px solid $color-a;
+            ul {
+                list-style-type: none;
+                h3 {
+                    font-family: "PoppinsLight";
+                    font-size: 20px;
+                }
+                .hv {
+                    cursor: pointer;
+                }
+                .hv:hover {
+                    color: $color-a;
+                }
+            }
+            .check:hover {
+                position: relative;
+                .child {
+                    display: block;
+                }
+            }
+            .child {
+                @include child();
+                .active {
+                    color: $color-a;
+                }
+                .check-two:hover {
+                    position: relative;
+                    .child-two {
+                        display: block;
+                    }
+                }
+                &-two {
+                    @include child();
+                }
+            }
+        }
+    }
+    .check-1 {
+        width: 45%;
+    }
+    .check-2 {
+        width: 45%;
+    }
+    .check-3 {
+        width: 10%;
+    }
+    .Custom {
+        font-size: 14px;
+    }
+}

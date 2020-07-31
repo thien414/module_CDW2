@@ -1,0 +1,83 @@
+.type-39 {
+  font-family: "Poppins"; }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("../fonts/Poppins-Light.ttf"); }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf"); }
+  .type-39 .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../images/39_background.jpg); }
+    .type-39 .title h2 {
+      color: #363636;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 5px;
+      letter-spacing: 2px; }
+    .type-39 .title li {
+      text-align: left;
+      list-style: none;
+      color: #959595; }
+      .type-39 .title li a {
+        color: #959595;
+        text-decoration: none; }
+      .type-39 .title li span:before {
+        content: "\f105";
+        font-family: FontAwesome;
+        color: #959595;
+        font-size: 15px;
+        padding: 0 10px; }
+  .type-39 .Content {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    .type-39 .Content-1 {
+      border: 1px solid #42ccaf; }
+      .type-39 .Content-1 ul {
+        list-style-type: none; }
+        .type-39 .Content-1 ul h3 {
+          font-family: "PoppinsLight";
+          font-size: 20px; }
+        .type-39 .Content-1 ul .hv {
+          cursor: pointer; }
+        .type-39 .Content-1 ul .hv:hover {
+          color: #42ccaf; }
+      .type-39 .Content-1 .check:hover {
+        position: relative; }
+        .type-39 .Content-1 .check:hover .child {
+          display: block; }
+      .type-39 .Content-1 .child {
+        color: #363636;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        display: none;
+        z-index: 1;
+        width: 200px;
+        border: 1px solid #e9ecef;
+        background-color: white; }
+        .type-39 .Content-1 .child .active {
+          color: #42ccaf; }
+        .type-39 .Content-1 .child .check-two:hover {
+          position: relative; }
+          .type-39 .Content-1 .child .check-two:hover .child-two {
+            display: block; }
+        .type-39 .Content-1 .child-two {
+          color: #363636;
+          position: absolute;
+          top: 0;
+          left: 100%;
+          display: none;
+          z-index: 1;
+          width: 200px;
+          border: 1px solid #e9ecef;
+          background-color: white; }
+  .type-39 .check-1 {
+    width: 45%; }
+  .type-39 .check-2 {
+    width: 45%; }
+  .type-39 .check-3 {
+    width: 10%; }
+  .type-39 .Custom {
+    font-size: 14px; }

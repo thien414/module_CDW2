@@ -1,0 +1,72 @@
+.type-11 {
+  font-family: "Poppins";
+  font-size: 14px; }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("../fonts/Poppins-Light.ttf"); }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf"); }
+  .type-11 .title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../images/11_background.jpg); }
+    .type-11 .title h2 {
+      color: #363636;
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 5px;
+      letter-spacing: 2px; }
+    .type-11 .title li {
+      text-align: left;
+      list-style: none;
+      color: #959595; }
+      .type-11 .title li a {
+        color: #959595;
+        text-decoration: none; }
+      .type-11 .title li span:before {
+        content: "\f105";
+        font-family: FontAwesome;
+        color: #959595;
+        font-size: 15px;
+        padding: 0 10px; }
+  .type-11 .Content {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    .type-11 .Content-1 {
+      border: 1px solid #42ccaf; }
+      .type-11 .Content-1 ul {
+        list-style-type: none; }
+        .type-11 .Content-1 ul h3 {
+          font-family: "PoppinsLight";
+          font-size: 20px; }
+        .type-11 .Content-1 ul .active {
+          color: #42ccaf; }
+        .type-11 .Content-1 ul .hv {
+          cursor: pointer; }
+        .type-11 .Content-1 ul .hv-child {
+          cursor: pointer; }
+        .type-11 .Content-1 ul .hv:hover {
+          color: #42ccaf; }
+        .type-11 .Content-1 ul .hv-child:hover {
+          color: #FF9C00; }
+    .type-11 .Content-2 {
+      border: 1px solid #959595;
+      border-top: 3px solid #42ccaf; }
+      .type-11 .Content-3 h2 {
+        font-family: "PoppinsLight";
+        font-size: 28px; }
+      .type-11 .Content-3 h3 {
+        font-family: "PoppinsLight";
+        font-size: 19px; }
+      .type-11 .Content-3 h4 {
+        font-family: "PoppinsLight";
+        font-size: 14px; }
+      .type-11 .Content-3 .calendar {
+        color: #959595;
+        font-size: 12px; }
+      .type-11 .Content-3 .check {
+        color: #42ccaf;
+        cursor: pointer; }
+      .type-11 .Content-3 .check:hover {
+        color: #FF9C00; }
