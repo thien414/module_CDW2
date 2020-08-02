@@ -1,0 +1,12 @@
+.type-48 {
+  font-family: "Poppins"; }
+  @font-face {
+    font-family: "PoppinsLight";
+    src: url("../fonts/Poppins-Light.ttf"); }
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf"); }
+  .type-48 .address {
+    font-size: 14px;
+    color: #363636;
+    font-family: "PoppinsLight"; }

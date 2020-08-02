@@ -4,6 +4,7 @@
     $color-create: #959595;
     $color-backround: #e6e6e6;
     $color-a: #42ccaf;
+    $color-child-hover: #FF9C00;
     @font-face {
         font-family: "PoppinsLight";
         src: url("../fonts/Poppins-Light.ttf");
@@ -13,11 +14,11 @@
         src: url("../fonts/Poppins-Regular.ttf");
     }
     @mixin child {
-        color: #363636;
         position: absolute;
+        display: none;
+        color: #363636;
         top: 0;
         left: 100%;
-        display: none;
         z-index: 1;
         width: 200px;
         border: 1px solid #e9ecef;
@@ -93,16 +94,30 @@
             }
         }
     }
-    .check-1 {
-        width: 45%;
-    }
-    .check-2 {
-        width: 45%;
-    }
-    .check-3 {
-        width: 10%;
+    .display-custom {
+        font-size: 14px;
     }
     .Custom {
         font-size: 14px;
+        .w-1 {
+            width: 40%;
+        }
+        .w-2 {
+            width: 20%;
+        }
+        .td-1 {
+            color: $color-a;
+            cursor: pointer;
+            &:hover {
+                color: $color-child-hover;
+            }
+        }
+        .td-2 {
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            background-color: $color-create;
+            border-radius: 25px;
+        }
     }
 }

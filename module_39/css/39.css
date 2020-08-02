@@ -48,11 +48,11 @@
         .type-39 .Content-1 .check:hover .child {
           display: block; }
       .type-39 .Content-1 .child {
-        color: #363636;
         position: absolute;
+        display: none;
+        color: #363636;
         top: 0;
         left: 100%;
-        display: none;
         z-index: 1;
         width: 200px;
         border: 1px solid #e9ecef;
@@ -64,20 +64,31 @@
           .type-39 .Content-1 .child .check-two:hover .child-two {
             display: block; }
         .type-39 .Content-1 .child-two {
-          color: #363636;
           position: absolute;
+          display: none;
+          color: #363636;
           top: 0;
           left: 100%;
-          display: none;
           z-index: 1;
           width: 200px;
           border: 1px solid #e9ecef;
           background-color: white; }
-  .type-39 .check-1 {
-    width: 45%; }
-  .type-39 .check-2 {
-    width: 45%; }
-  .type-39 .check-3 {
-    width: 10%; }
+  .type-39 .display-custom {
+    font-size: 14px; }
   .type-39 .Custom {
     font-size: 14px; }
+    .type-39 .Custom .w-1 {
+      width: 40%; }
+    .type-39 .Custom .w-2 {
+      width: 20%; }
+    .type-39 .Custom .td-1 {
+      color: #42ccaf;
+      cursor: pointer; }
+      .type-39 .Custom .td-1:hover {
+        color: #FF9C00; }
+    .type-39 .Custom .td-2 {
+      font-size: 12px;
+      font-weight: bold;
+      color: white;
+      background-color: #959595;
+      border-radius: 25px; }

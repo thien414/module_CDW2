@@ -4,13 +4,163 @@
     $color-create: #959595;
     $color-backround: #e6e6e6;
     $color-a: #42ccaf;
+    $color: #363636;
     @font-face {
         font-family: "PoppinsLight";
         src: url("../fonts/Poppins-Light.ttf");
+    }
+    @font-face {
+        font-family: "Poppinsbold";
+        src: url("../fonts/Poppins-Bold.ttf");
     }
     @font-face {
         font-family: "Poppins";
         src: url("../fonts/Poppins-Regular.ttf");
     }
     font-family: "Poppins";
+    .title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: url(../images/43_background.jpg);
+        h2 {
+            color: #363636;
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 5px;
+            letter-spacing: 2px;
+        }
+        li {
+            text-align: left;
+            list-style: none;
+            color: $color-create;
+            a {
+                color: $color-create;
+                text-decoration: none;
+            }
+            span:before {
+                content: "\f105";
+                font-family: FontAwesome;
+                color: $color-create;
+                font-size: 15px;
+                padding: 0 10px;
+            }
+        }
+    }
+    .Content {
+        &-title {
+            color: $color;
+            h2 {
+                font-family: "Poppinsbold";
+                font-size: 34px;
+            }
+        }
+        &-tool {
+            font-size: 12px;
+            color: $color-create;
+            &-a {
+                span {
+                    padding-left: 0.5rem;
+                    cursor: pointer;
+                    &:hover {
+                        color: $color-a;
+                    }
+                }
+            }
+            &-b {
+                i {
+                    padding-right: 1.5rem;
+                }
+            }
+        }
+        &-text {
+            font-size: 14px;
+            color: $color;
+            .day {
+                font-size: 12px;
+                color: $color-create;
+            }
+            &-under {
+                margin-top: 1rem;
+                .active {
+                    font-size: 13px;
+                    color: $color-create;
+                    padding-right: 2rem;
+                }
+                .btn {
+                    border-radius: 0;
+                    margin-right: 5px;
+                    padding: 3px 6px;
+                    font-size: 12px;
+                    color: $color;
+                    border: 1px solid $color-create;
+                }
+            }
+            &-read {
+                margin-top: 1rem;
+                font-size: 12px;
+                color: $color-create;
+            }
+        }
+        &-icon {
+            margin-top: 1rem;
+            .btn {
+                button {
+                    border-radius: 4px;
+                    border: 0;
+                    background-color: #1b95e0;
+                    font-size: 12px;
+                    color: white;
+                }
+                span {
+                    font-size: 11px;
+                }
+            }
+            .icon {
+                margin-top: 0.6rem;
+                color: $color-create;
+                font-size: 12px;
+                .star {
+                    top: -25px;
+                    width: 25px;
+                    height: 25px;
+                    background-image: url(../images/ratingstars.png);
+                }
+            }
+        }
+        &-user {
+            &-text {
+                color: $color;
+                h3 {
+                    font-family: "PoppinsLight";
+                    font-size: 20px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+        &-sup {
+            h3 {
+                font-size: 20px;
+            }
+            li {
+                font-size: 13px;
+            }
+            a {
+                color: $color;
+                &:hover {
+                    text-decoration: none;
+                    color: $color-a;
+                }
+            }
+            span {
+                font-size: 13px;
+                cursor: pointer;
+                color: $color-a;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
 }
